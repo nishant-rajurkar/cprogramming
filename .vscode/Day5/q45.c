@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a[]={10,11,12,13,14,15,16};
-    for(int i=0;i<7;i++)
+    int n;
+    printf("enter sie of array: ");
+    scanf("%d",&n);
+    int arr[n];
+    printf("enter %d elements in array",n);
+    for(int i=0;i<n;i++)
     {
-        if(a[i]>=1 && )
-        {
-            printf("")
-        }
+        scanf("%d",&arr[i]);
     }
 } 
