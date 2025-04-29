@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-   printf("\t1");
-   printf("\n");
-   for(int i=1;i<3;i++)
+   for(int r=1;r<=3;r++)
    {
-      printf("\t%d",i);
-   }
-   printf("\n");
-   for(int i=1;i<4;i++)
-   {
-      printf("%d\t",i);
+       for(int k=3;k>=r;k--)
+       {
+           printf("  ");
+       }
+       for(int c=1;c<=r;c++)
+       {
+           printf(" %d ",c);
+       }
+       printf("\n");
    }
 }

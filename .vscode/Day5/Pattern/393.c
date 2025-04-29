@@ -1,25 +1,20 @@
+
 #include<stdio.h>
 int main()
 {
-for(int i=4;i>=1;i--)
-{
-   for(int k=i;k<=4;k++)
-   {  
-       printf("  ");
-   }
-   for(int j=1;j<=i;j++)
+   for(int r=4;r>=1;r--)
    {
-       printf("%d ",i);
+       for(int k=4;k>=r;k--)
+       {
+           printf(" ");
+       }
+       for(int c=r;c>=r;c--)
+       {
+            
+            {
+                printf(" %d ",r);
+            }
+       }
+       printf("\n");
    }
-   printf("\n");
 }
-for(int i=4;i>=2;i--)
-    {
-        for(int j=i;j>=2;j--)
-        {
-            printf("%d ",i);
-        }
-        printf("\n");
-    }
-}
-
